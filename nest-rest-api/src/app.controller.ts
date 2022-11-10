@@ -7,6 +7,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    return this.appService.getHello();
+    return 'hello nest.js!!!';
+    // return this.appService.getHello();
   }
 }
